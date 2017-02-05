@@ -1,0 +1,23 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Es posible detectar todos los cambios introducidos en la nueva versión y determinar si esos cambios introdujeron el bug.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+es posible evitar cometer errores que ya fueron corregidos, o revisar cambios al código que fueron introducidos durante el desarrollo debido a mejoras o pedidos de cambios. "Solo conociendo tu historia puedes evitar repetir los errores cometidos en ella"
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+PRO> se pueden establecer unidades logicas, que representan cambios importantes para el programador y que pueden identificar puntos de cambio en la aplicación.
+CON> es posible perder un cambio si no se realiza el commit a tiempo, debido alguna falla de la máquina.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Porque Git está orientado a código fuente, y en estos casos varios archivos pueden estar relacionados a un cambio o unidad lógica y tratar de buscar una relación entre los cambios realizados sobre los archivos de forma separada sería demasiado complejo.
+
+How can you use the commands git log and git diff to view the history of files?
+Al usar git log --stat se puede determinar que archivos cambiaron entre commits y como cambiaron en forma resumida, y luego que se identifica el archivo que se quiere analizar, se peude comparar entre commits para determinar el contenido afectado.
+
+How might using version control make you more confident to make changes that could break something?
+Porque siempre es posible regresar a un punto en el que el código si funcionaba en el caso de que se rompa.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Deseo poder documentar lo que aprendo en el mismo código. Que el código sea el reflejo de lo que aprendo. Y con GIT podría llevar un registro de los cambios en los proyectos prototipos.
+
