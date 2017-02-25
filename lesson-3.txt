@@ -6,17 +6,19 @@ Cuando deseo trabajar con varias personas ubicadas remotamente. Es decir cuando 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+ Porque pueden existir casos en los que los cambios introducidos en el repositorio remoto no sean los definitivos
+y generen ruido en mi repositorio local.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
-
-    Fill in your answer here
+ 
+ Fork es una repositorio clonado que se crea en mi cuenta de github a partir de un repositorio de un tercero. Me permite trabajar sobre modificaciones en el repositorio sin afectar al propietario del mismo. Clone me permite obtener una copia local de un repositorio y me permite trabajar directamente y colaborar
+ con el dueno del repositorio. Branch es un commit con una etiqueta y me permite realizar modificaciones sobre un repositorio de forma local sin afectar a la rama principal de desarrollo.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    Es util porque podria utilizarse para actualizar nuestro repositorio local con los cambios introducidos previamente y tener una copia local lo más parecida al contenido del repositorio remoto.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
