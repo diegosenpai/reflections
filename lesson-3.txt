@@ -23,9 +23,9 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+ Sin utilizar un CVS, la pregunta se complica, porque utilizaría un servidor FTP en donde todos los miembros del equipo podriamos acceder al código, eso sería lo fácil. Lo complejo sería resolver los conflictos que se presentan en los archivos. Alguien tendría que estar a cargo de eso. Y aún más complicado sería poder llevar un control de los cambios realizados a fin de porder ver su historia.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+Porque puedo trabajar en nuevas características sin afectar al arbol principal que es el que comunmente contiene la versión que se encuentra en ejecución. De esta forma se pueden probar estas características de forma segura. Otra ventaja es que se pueden corregir errores que se presenten en la rama princial o el código en ejecución sin que se afecte las nuevas características del branch.
